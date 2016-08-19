@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.alibaba.jstorm:jstorm-server:0.9.6.2_cnc-1.0.3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/jstorm/jstorm-server/0.9.6.2_cnc-1.0.3/jstorm-server-0.9.6.2_cnc-1.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/jstorm/jstorm-server/0.9.6.2_cnc-1.0.3/jstorm-server-0.9.6.2_cnc-1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/jstorm/jstorm-server/0.9.6.2_cnc-1.0.3/jstorm-server-0.9.6.2_cnc-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
