@@ -58,11 +58,11 @@ public class ChannelBolt extends BaseBasicBolt implements Cleanable{
                 }
             }
             //整合所有元素后排序发送TOP N
-            Collections.sort(current, new CodeCompare(0));
+            Collections.sort(current, new CodeCompare(Common.ALL));
             ImmutableList all = ImmutableList.copyOf(current.subList(0, Math.min(Common.TOP,current.size())));
-            Collections.sort(current, new CodeCompare(1));
+            Collections.sort(current, new CodeCompare(Common.HIT));
             ImmutableList hit = ImmutableList.copyOf(current.subList(0,Math.min(Common.TOP,current.size())));
-            Collections.sort(current, new CodeCompare(2));
+            Collections.sort(current, new CodeCompare(Common.MISS));
             ImmutableList miss = ImmutableList.copyOf(current.subList(0, Math.min(Common.TOP,current.size())));
             ImmutableList result = ImmutableList.of(all, hit, miss);
             //发送所有结果准备打印
