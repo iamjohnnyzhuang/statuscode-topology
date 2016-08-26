@@ -19,7 +19,7 @@ public class CodeSpout extends BaseRichSpout {
     private SpoutOutputCollector collector;
     private File director;
     private Long endLine;
-    private Long curentNum;
+    private AtomicLong curentNum;
 
     @Override
     public void open(Map conf, TopologyContext context, SpoutOutputCollector collector) {
